@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: var(--nav-color);
+  height: 8vh;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.github a {
+  color: white;
+  text-decoration: none;
+}
+.github a:hover {
+  color: var(--hover-color);
+}
