@@ -23,7 +23,7 @@ function App() {
       <div className="App">
         <Nav cartTotalProducts={cartProductsCout} />
         <Switch>
-          <Route exact path="/home" component={Home} />
+          <Route exact path="/" component={Home} />
           <Route exact path="/shop" component={Shop} />
           <Route exact path="/cart" component={Cart} />
           <Route exact path="/shop/:id" component={Product} />
